@@ -1,0 +1,250 @@
+@charset "UTF-8";
+/*css 初始化 */
+html, body, ul, li, ol, dl, dd, dt, p, h1, h2, h3, h4, h5, h6, form, fieldset, legend, img { margin:0; padding:0; }
+fieldset, img,input,button { border:none; padding:0;margin:0;outline-style:none; }
+ul, ol { list-style:none; }
+input { padding-top:0; padding-bottom:0; font-family: "SimSun","宋体";}
+select, input { vertical-align:middle;}
+select, input, textarea { font-size:12px; margin:0; }
+textarea { resize:none; } /*防止拖动*/
+img {border:0;	vertical-align:middle; }  /*  去掉图片低测默认的3像素空白缝隙*/
+table { border-collapse:collapse; }
+body {
+    font:12px/150% Arial,Verdana,"\5b8b\4f53";
+    color:#666;
+    background:#fff
+}
+.clearfix:before,.clearfix:after {
+    content:"";
+    display:table;
+}
+.clearfix:after{
+	clear:both;
+	}
+.clearfix{
+    *zoom:1;/*IE/7/6*/
+}
+a {color:#666; text-decoration:none; }
+a:hover{color:#C81623;}
+h1,h2,h3,h4,h5,h6 {text-decoration:none;font-weight:normal;font-size:100%;}
+s,i,em{font-style:normal;text-decoration:none;}
+.col-red{color: #C81623!important;}
+
+/*公共类*/
+.w {  /*版心 提取 */
+    width: 1210px;margin:0 auto;
+}
+.fl {
+    float:left
+}
+.fr {
+    float:right
+}
+.al {
+    text-align:left
+}
+.ac {
+    text-align:center
+}
+.ar {
+    text-align:right
+}
+.hide {
+    display:none
+}
+
+/*头部导航开始*/
+.shortcut {
+    height: 30px;
+    line-height: 30px;
+    background-color: #f1f1f1;
+}
+.dt,
+.shortcut .fore
+{
+    padding:0 20px 0 10px;
+    position: relative;
+}
+.dt,
+.fore i
+{
+    font: 400 15px/15px "宋体";
+    position: absolute;
+    top:13px;
+    right:3px;
+    height: 7px;
+    overflow: hidden;
+    width: 15px;
+    /*border-style:solid;
+    border-left: thick double #666666;*/
+}
+.dt,
+.fore s{
+    position: absolute;
+    top: -8px;
+    left: 0;
+}
+.site-nav-r li {
+	/*定义元素在哪个方向浮动*/
+    float: left;
+    padding: 0 10px;
+}
+.site-nav-r .line {
+    width: 1px;
+    height: 12px;
+    background-color: #ddd;
+    margin-top: 9px;
+    padding:0;
+}
+.shortcut .tel-jd{
+    padding:0 20px 0 25px;
+}
+.tel{
+    position: absolute;
+    width: 15px;
+    height: 20px;
+    background: url(../img/sprite.png) no-repeat;
+    left: 5px;
+    top:5px;
+}
+
+.top-banner {
+	background-color: #8A25C6;
+}
+.tb {
+	position: relative;
+}
+
+.close-banner {
+	position: absolute;
+	top: 5px;
+	right: 5px;
+	width: 19px;
+	height: 19px;
+	background: url(../img/close.png);
+}
+.close-banner:hover {
+	background-position: bottom;
+}
+
+.search-logo {
+	width: 362px;
+	height: 60px;
+	float: left;
+	padding: 20px 0;
+}
+.search-logo a {
+	display: block;
+	width: 270px;
+	height: 60px;
+	text-indent: -9999px;
+	background: url(../img/logo.png) no-repeat;	
+	
+}
+
+.search-input {
+	float: left;
+	width: 538px;
+	height: 36px;
+	padding-top: 25px;
+	
+}
+.search-input input {
+	float: left;
+	width: 450px;
+	height: 32px;
+	border: 2px solid #B61D1D;
+	border-right: 0;
+	padding-left: 4px;
+	font: 400 14px/32px "微软雅黑";
+	color: rgb(153,153,153);
+	
+}
+.search-input button {
+	width: 82px;
+	height: 36px;
+	background-color: #B61D1D;
+	color: #fff;
+	font: 400 16px/36px "microsoft yahei";
+	/*我擦😡html竟然button自带圆角还要自己设置border-radius*/
+	border-radius: 0px;
+	cursor: pointer;
+	float: left;
+	
+}
+
+.search-car {
+	width: 96px;
+	height: 34px;
+	line-height: 34px;
+	padding-left: 43px;
+	position: relative;
+	background-color: #F1F1F1;
+	border: 1px solid #DFDFDF;
+	float: right;
+	margin: 25px 65px 0 0;
+}
+.icon1 {
+	position: absolute;
+	top: 9px;
+	left: 18px;
+	width: 18px;
+	height: 16px;
+	background: url(../img/sprite.png) no-repeat 0 -58px;
+}
+
+.icon2 {
+	position: absolute;
+	right: 10px;
+	color: #999;
+	font-family: simsun;
+}
+
+.icon3 {
+	position: absolute;
+	width: 16px;
+	height: 14px;
+	background-color: #C81623;
+	line-height: 14px;
+	text-align: center;
+	color: #fff;
+	top: -5px;
+	border-radius: 7px 7px 7px 0;
+}
+.search-moreAlink {
+	width: 530px;
+	height: 28px;
+	line-height: 28px;
+	float: left;
+}
+.search-moreAlink a {
+	margin-right: 8px;
+}
+
+/*footer部分*/
+.footer-top-slogen {
+	width: 100%;
+	height: 94px;
+	background-color: red;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
