@@ -225,10 +225,30 @@ s,i,em{font-style:normal;text-decoration:none;}
 .footer-top-slogen {
 	width: 100%;
 	height: 94px;
+	position: relative;
 	background-color: #F5F5F5;
 }
+.footer-top-slogen-icon {
+	position: absolute;
+	top: 20px;
+	left: 50%;
+}
 
+.footer-top-slogen-icon1 {
+	margin-left: -604px;
+}
 
+.footer-top-slogen-icon2 {
+	margin-left: -302px;
+}
+
+.footer-top-slogen-icon3 {
+	
+}
+
+.footer-top-slogen-icon4 {
+	margin-left: 302px;
+}
 
 
 
