@@ -234,7 +234,7 @@ s,i,em{font-style:normal;text-decoration:none;}
 	z-index: 1;
 	
 }
-.shortcut-nav-menu a {
+.shortcut-nav-menu-all a {
 	display: block;
 	width: 190px;
 	height: 44px;
@@ -251,6 +251,30 @@ s,i,em{font-style:normal;text-decoration:none;}
 	background-color: #C81623;
 	border-left: 1px solid #B1191A;
 	border-bottom: 1px solid #B1191A;
+}
+
+.shorcut-nav-menu-one div {
+	height: 31px;
+	font: 400 14px/31px "microsoft yahei";
+	padding: 0 10px;
+}
+.shorcut-nav-menu-one div:hover {
+	background-color: #FFFFFF;
+}
+.shorcut-nav-menu-one div:hover a {
+	color: #B1191A;
+}
+.shorcut-nav-menu-one h3 {
+	float: left;
+}
+
+.shorcut-nav-menu-one a {
+	color: #FFFFFF;
+}
+.shorcut-nav-menu-one i {
+	float: right;
+	color: #FFFFFF;
+	font: 400 9px/31px "consolas";
 }
 .shortcut-nav-items {
 	width: 730px;
