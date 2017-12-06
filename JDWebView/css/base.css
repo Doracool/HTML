@@ -288,10 +288,24 @@ s,i,em{font-style:normal;text-decoration:none;}
 .coverage a {
 	float: right;
 }
+.footer-bottom {
+	border-top: 1px solid #E5E5E5;
+	margin-top: 20px;
+	text-align: center;
+	padding: 20px 0 30px;
+}
 
+.footer-bottom-links a {
+	margin: 0 10px;
+}
 
+.footer-bottom-copyright {
+	padding: 10px 0;
+}
 
-
+.footer-bottom-img a{
+	margin: 0 5px;
+}
 
 
 
