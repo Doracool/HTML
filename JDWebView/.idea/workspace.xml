@@ -27,8 +27,8 @@
       <file leaf-file-name="index.css" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/css/index.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="855">
-              <caret line="76" column="26" lean-forward="false" selection-start-line="76" selection-start-column="26" selection-end-line="76" selection-end-column="26" />
+            <state relative-caret-position="685">
+              <caret line="133" column="16" lean-forward="false" selection-start-line="133" selection-start-column="16" selection-end-line="133" selection-end-column="16" />
               <folding />
             </state>
           </provider>
@@ -37,8 +37,8 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="508">
-              <caret line="244" column="52" lean-forward="false" selection-start-line="244" selection-start-column="52" selection-end-line="244" selection-end-column="52" />
+            <state relative-caret-position="436">
+              <caret line="263" column="39" lean-forward="false" selection-start-line="263" selection-start-column="39" selection-end-line="263" selection-end-column="39" />
               <folding>
                 <element signature="n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
                 <element signature="n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
@@ -49,55 +49,6 @@
                 <element signature="n#div#5;n#body#0;n#html#0;n#!!top" expanded="false" />
               </folding>
             </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="img1.jpg" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/img/img1.jpg">
-          <provider selected="true" editor-type-id="images">
-            <state />
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="logo.png" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/img/logo.png">
-          <provider selected="true" editor-type-id="images">
-            <state />
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="slider02.jpg" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/img/slider02.jpg">
-          <provider selected="true" editor-type-id="images">
-            <state />
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="slogen2.png" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/img/slogen2.png">
-          <provider selected="true" editor-type-id="images">
-            <state />
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="slogen4.png" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/img/slogen4.png">
-          <provider selected="true" editor-type-id="images">
-            <state />
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="sprite.png" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/img/sprite.png">
-          <provider selected="true" editor-type-id="images">
-            <state />
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="topbanner.jpg" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/img/topbanner.jpg">
-          <provider selected="true" editor-type-id="images">
-            <state />
           </provider>
         </entry>
       </file>
@@ -119,7 +70,7 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="824" />
+    <option name="x" value="878" />
     <option name="y" value="23" />
     <option name="width" value="1400" />
     <option name="height" value="1000" />
@@ -198,15 +149,15 @@
       <workItem from="1512542753580" duration="341000" />
       <workItem from="1512609982735" duration="155000" />
       <workItem from="1512610171021" duration="1114000" />
-      <workItem from="1512611408728" duration="6803000" />
+      <workItem from="1512611408728" duration="11372000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="11250000" />
+    <option name="totallyTimeSpent" value="15819000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="824" y="23" width="1400" height="1000" extended-state="0" />
+    <frame x="878" y="23" width="1400" height="1000" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.15214285" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -459,17 +410,7 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/img/img1.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/img/logo.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/img/slider02.jpg">
       <provider selected="true" editor-type-id="images">
         <state />
       </provider>
@@ -484,12 +425,22 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/img/topbanner.jpg">
+    <entry file="file://$PROJECT_DIR$/img/sprite.png">
       <provider selected="true" editor-type-id="images">
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/img/sprite.png">
+    <entry file="file://$PROJECT_DIR$/img/img1.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/img/slider02.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/img/topbanner.jpg">
       <provider selected="true" editor-type-id="images">
         <state />
       </provider>
@@ -504,8 +455,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="508">
-          <caret line="244" column="52" lean-forward="false" selection-start-line="244" selection-start-column="52" selection-end-line="244" selection-end-column="52" />
+        <state relative-caret-position="436">
+          <caret line="263" column="39" lean-forward="false" selection-start-line="263" selection-start-column="39" selection-end-line="263" selection-end-column="39" />
           <folding>
             <element signature="n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
@@ -520,8 +471,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/css/index.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="855">
-          <caret line="76" column="26" lean-forward="false" selection-start-line="76" selection-start-column="26" selection-end-line="76" selection-end-column="26" />
+        <state relative-caret-position="685">
+          <caret line="133" column="16" lean-forward="false" selection-start-line="133" selection-start-column="16" selection-end-line="133" selection-end-column="16" />
           <folding />
         </state>
       </provider>
