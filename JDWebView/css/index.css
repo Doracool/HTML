@@ -1,5 +1,81 @@
 @charset "utf-8";
 /*main部分start*/
+    .mian-slider {
+        float: left;
+        width: 730px;
+        height: 454px;
+        position: relative;
+        margin: 12px 0 0 220px;
+    }
+
+    .mian-slider ul {
+        position: absolute;
+        bottom: 10px;
+        left: 50%;
+    }
+    .mian-slider li {
+        float: left;
+        width: 18px;
+        height: 18px;
+        background-color: #3E3E3E;
+        color: #fff;
+        margin: 0 2px;
+        cursor: pointer;
+        border-radius: 9px;
+        text-align: center;
+        line-height: 18px;
+    }
+
+    .mian-slider .current{
+        background-color: #B6181F;
+    }
+
+    .arrow a {
+        position: absolute;
+        top: 50%;
+        width: 28px;
+
+        height: 62px;
+        background-color: rgba(0,0,0,0.3);
+        margin-top: -31px;
+        text-align: center;
+        color: #fff;
+        font: 400 22px/62px "simsun";
+    }
+    .arrow .arrow-left {
+        left: 0;
+        border-radius: 0 5px 5px 0;
+    }
+    .arrow a:hover {
+    background: rgba(0,0,0,0.7);
+}
+
+    .arrow .arrow-right {
+        right: 0;
+        border-radius: 5px 0 0 5px;
+    }
+    .main-news {
+        float: right;
+        height: 466px;
+        width: 250px;
+    }
+
+    .main-news-top {
+        height: 444px;
+        width: 248px;
+        margin: 12px 0 5px 0;
+        border: 1px solid #E4E4E4;
+    }
+
+    .main-news-top-faster {
+        height: 163px;
+        border: 1px dashed #E8E7E7;
+    }
+
+    .main-news-top-faster-title {
+        height: 32px;
+        border: 1px dotted #E8E7E7;
+    }
 /*main部分end*/
 
 /*site-nav部分start*/
