@@ -136,6 +136,42 @@
         height: 25px;
         background: url(../img/icon_lifeserv.png) no-repeat;
     }
+
+    .main-news-top-money .main-news-top-money-icon1 {
+        background-position: -25px -25px;
+    }
+
+    .main-news-top-money .main-news-top-money-icon2 {
+    background-position: 0 -50px;
+    }
+
+    .main-news-top-money span {
+
+    }
+
+    .show {
+        background: url(../img/song.png) no-repeat right top;
+    }
+
+    .today {
+        padding: 10px 0 20px;
+    }
+
+    .today-left {
+        float: left;
+    }
+
+    .today-left a {
+        display: block;
+        width: 210px;
+        height: 151px;
+        margin-left: -4px;
+        background: url(../img/night.jpg) no-repeat;
+    }
+
+    .today-right {
+        float: right;
+    }
 /*main部分end*/
 
 /*site-nav部分start*/
