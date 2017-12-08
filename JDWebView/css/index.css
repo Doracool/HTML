@@ -170,8 +170,20 @@
     }
 
     .today-right {
+        width: 1000px;
         float: right;
+        overflow: hidden;
+        position: relative;
     }
+
+    .today-right ul {
+        width: 1200px;
+    }
+    .today-right li {
+        float: left;
+        margin-right: 1px;
+    }
+
 /*main部分end*/
 
 /*site-nav部分start*/
